@@ -1,4 +1,5 @@
 <scheme name="Saime Black Warm" version="1" parent_scheme="Darcula">
+    <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
         <property name="created">2023-09-13T13:00:00</property>
         <property name="ide">GoLand</property>
@@ -12,6 +13,7 @@
     <colors>
         <option name="CARET_ROW_COLOR" value="c0c0c"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="0"/>
+        <option name="DIFF_SEPARATOR_WAVE" value="7e7e7e" />
         <option name="DOCUMENTATION_COLOR" value="0"/>
         <option name="FILESTATUS_ADDED" value="c3e887"/>
         <option name="FILESTATUS_COPIED" value="c3e88d"/>
@@ -59,10 +61,28 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value/>
         </option>
+        <option name="DIFF_CONFLICT">
+            <value>
+                <option name="BACKGROUND" value="381919" />
+                <option name="ERROR_STRIPE_COLOR" value="d5ff38" />
+            </value>
+        </option>
+        <option name="DIFF_DELETED">
+            <value>
+                <option name="BACKGROUND" value="1f1c1c" />
+                <option name="ERROR_STRIPE_COLOR" value="414141" />
+            </value>
+        </option>
+        <option name="DIFF_INSERTED">
+            <value>
+                <option name="BACKGROUND" value="4250a" />
+                <option name="ERROR_STRIPE_COLOR" value="165024" />
+            </value>
+        </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="385570"/>
-                <option name="ERROR_STRIPE_COLOR" value="415562"/>
+                <option name="BACKGROUND" value="12283b" />
+                <option name="ERROR_STRIPE_COLOR" value="10216e" />
             </value>
         </option>
         <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
