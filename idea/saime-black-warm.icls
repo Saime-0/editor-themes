@@ -6,7 +6,7 @@
         <property name="originalScheme">Saime Black Warm</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.2"/>
-    <option name="EDITOR_FONT_SIZE" value="17"/>
+    <option name="EDITOR_FONT_SIZE" value="16"/>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono"/>
     <colors>
         <option name="CARET_ROW_COLOR" value="c0c0c"/>
