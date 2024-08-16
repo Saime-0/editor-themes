@@ -1,19 +1,17 @@
-<scheme name="Saime Black Warm" version="1" parent_scheme="Darcula">
-    <option name="FONT_SCALE" value="1.0" />
+<scheme name="Saime Black Warm" version="142" parent_scheme="Darcula">
+    <option name="FONT_SCALE" value="1.0"/>
     <metaInfo>
-        <property name="created">2023-09-13T13:00:00</property>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.1.4.0.0</property>
-        <property name="modified">2024-07-27T21:12:20</property>
-        <property name="originalScheme">DarkCode Contrast</property>
+        <property name="ideVersion">2024.2.0.0</property>
+        <property name="originalScheme">Saime Black Warm</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.2"/>
-    <option name="EDITOR_FONT_SIZE" value="15"/>
+    <option name="EDITOR_FONT_SIZE" value="17"/>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono"/>
     <colors>
         <option name="CARET_ROW_COLOR" value="c0c0c"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="0"/>
-        <option name="DIFF_SEPARATOR_WAVE" value="7e7e7e" />
+        <option name="DIFF_SEPARATOR_WAVE" value="7e7e7e"/>
         <option name="DOCUMENTATION_COLOR" value="0"/>
         <option name="FILESTATUS_ADDED" value="c3e887"/>
         <option name="FILESTATUS_COPIED" value="c3e88d"/>
@@ -46,54 +44,15 @@
         <option name="SELECTION_BACKGROUND" value="192336"/>
     </colors>
     <attributes>
-        <option name="INLINE_STACK_FRAMES">
+        <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="450162"/>
+                <option name="BACKGROUND" value="e0800"/>
+                <option name="EFFECT_COLOR" value="3b2604"/>
             </value>
         </option>
-        <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+        <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="EFFECT_COLOR" value="8d8d8d"/>
-                <option name="ERROR_STRIPE_COLOR" value="b56277"/>
-                <option name="EFFECT_TYPE" value="5"/>
-            </value>
-        </option>
-        <option name="INJECTED_LANGUAGE_FRAGMENT">
-            <value/>
-        </option>
-        <option name="DIFF_CONFLICT">
-            <value>
-                <option name="BACKGROUND" value="381919" />
-                <option name="ERROR_STRIPE_COLOR" value="d5ff38" />
-            </value>
-        </option>
-        <option name="DIFF_DELETED">
-            <value>
-                <option name="BACKGROUND" value="1f1c1c" />
-                <option name="ERROR_STRIPE_COLOR" value="414141" />
-            </value>
-        </option>
-        <option name="DIFF_INSERTED">
-            <value>
-                <option name="BACKGROUND" value="4250a" />
-                <option name="ERROR_STRIPE_COLOR" value="165024" />
-            </value>
-        </option>
-        <option name="DIFF_MODIFIED">
-            <value>
-                <option name="BACKGROUND" value="12283b" />
-                <option name="ERROR_STRIPE_COLOR" value="10216e" />
-            </value>
-        </option>
-        <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
-            <value>
-                <option name="BACKGROUND" value="2c0303"/>
-            </value>
-        </option>
-        <option name="EXECUTIONPOINT_ATTRIBUTES">
-            <value>
-                <option name="BACKGROUND" value="130909"/>
-                <option name="EFFECT_COLOR" value="115dd2"/>
+                <option name="FOREGROUND" value="2d3828"/>
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -113,17 +72,6 @@
         <option name="DEFAULT_DOC_MARKUP">
             <value>
                 <option name="FOREGROUND" value="638159"/>
-            </value>
-        </option>
-        <option name="BREAKPOINT_ATTRIBUTES">
-            <value>
-                <option name="BACKGROUND" value="e0800"/>
-                <option name="EFFECT_COLOR" value="3b2604"/>
-            </value>
-        </option>
-        <option name="DEFAULT_BLOCK_COMMENT">
-            <value>
-                <option name="FOREGROUND" value="2d3828"/>
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -170,6 +118,45 @@
                 <option name="FOREGROUND" value="454479"/>
             </value>
         </option>
+        <option name="DIFF_CONFLICT">
+            <value>
+                <option name="FOREGROUND" value="331010"/>
+                <option name="BACKGROUND" value="421515"/>
+                <option name="ERROR_STRIPE_COLOR" value="1a123a"/>
+            </value>
+        </option>
+        <option name="DIFF_DELETED">
+            <value>
+                <option name="FOREGROUND" value="2d2826"/>
+                <option name="BACKGROUND" value="1c1812"/>
+                <option name="ERROR_STRIPE_COLOR" value="1c1812"/>
+            </value>
+        </option>
+        <option name="DIFF_INSERTED">
+            <value>
+                <option name="FOREGROUND" value="112309"/>
+                <option name="BACKGROUND" value="102f18"/>
+                <option name="ERROR_STRIPE_COLOR" value="154220"/>
+            </value>
+        </option>
+        <option name="DIFF_MODIFIED">
+            <value>
+                <option name="FOREGROUND" value="120c28"/>
+                <option name="BACKGROUND" value="1a123a"/>
+                <option name="ERROR_STRIPE_COLOR" value="1a123a"/>
+            </value>
+        </option>
+        <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="2c0303"/>
+            </value>
+        </option>
+        <option name="EXECUTIONPOINT_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="130909"/>
+                <option name="EFFECT_COLOR" value="115dd2"/>
+            </value>
+        </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="0"/>
@@ -183,17 +170,32 @@
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
+        <option name="INJECTED_LANGUAGE_FRAGMENT">
+            <value/>
+        </option>
         <option name="INLAY_DEFAULT">
             <value>
-                <option name="FOREGROUND" value="25382e"/>
-                <!--                <option name="FOREGROUND" value="155b35"/>-->
-                <option name="BACKGROUND" value="181818"/>
+                <option name="FOREGROUND" value="1a2a3a"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="1e4636"/>
-                <option name="BACKGROUND" value="181818"/>
+                <option name="FOREGROUND" value="1a2a3a"/>
+            </value>
+        </option>
+        <option name="INLINE_PARAMETER_HINT_CURRENT">
+            <value>
+                <option name="FOREGROUND" value="5183b6"/>
+            </value>
+        </option>
+        <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+            <value>
+                <option name="FOREGROUND" value="336085"/>
+            </value>
+        </option>
+        <option name="INLINE_STACK_FRAMES">
+            <value>
+                <option name="BACKGROUND" value="450162"/>
             </value>
         </option>
         <option name="KOTLIN_DOC_COMMENT">
@@ -255,6 +257,13 @@
                 <option name="BACKGROUND" value="232323"/>
                 <option name="EFFECT_COLOR" value="52503a"/>
                 <option name="ERROR_STRIPE_COLOR" value="be9117"/>
+            </value>
+        </option>
+        <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+            <value>
+                <option name="EFFECT_COLOR" value="8d8d8d"/>
+                <option name="ERROR_STRIPE_COLOR" value="b56277"/>
+                <option name="EFFECT_TYPE" value="5"/>
             </value>
         </option>
     </attributes>
