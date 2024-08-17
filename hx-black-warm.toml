@@ -32,7 +32,7 @@
 "ui.statusline.select" = { fg = "ultramarine4_dark", bg = "bg1", modifiers = ["reversed", "bold"] }
 "ui.statusline.inactive" = { fg = "gray0", bg = "bg1" }
 "ui.popup" = { bg = "bg1" }
-"ui.window" = { fg= "bg1", bg = "bg0" }
+"ui.window" = { fg = "bg1", bg = "bg0" }
 "ui.help" = { bg = "bg1", fg = "fg0" }
 "ui.text" = { fg = "fg1" }
 "ui.text.focus" = { fg = "selection0" }
@@ -68,14 +68,14 @@
 "constant.numeric" = "blue_gray"
 "constant.builtin" = "orange_bronze"
 "function" = "pale_beaver"
-# "function.method" = "signal_clay" # в go работает неправильно 
+# "function.method" = "signal_clay" # в go работает неправильно
 "function.builtin" = "orange_bronze"
 "variable" = "marengo_blue"
 "variable.builtin" = "orange_bronze"
 "namespace" = "green_sage" # в go работает частично
 "string" = "dark_purple"
 "string.special" = "orange_bronze"
-"comment" = "signal_black"
+"comment" = "green_moss"
 "ui.background" = { bg = "black" }
 "punctuation" = "green"
 "punctuation.delimiter" = "orange_bronze"
@@ -85,20 +85,21 @@
 [palette]
 
 # edited:
-"signal_clay" = "#7C4141"
-"green" = "#507C3B"
-"dark_purple" = "#454479"
-"green_sage" = "#AFBF7E"
-"pearl_brown" = "#69472C"
-"marengo_blue" = "#405469"
-"orange_bronze" = "#CC7832"
-"green_crayola" = "#6FAFBD"
-"brilliant_crayola" = "#9876AA"
-"black" = "#000000"
-"signal_black" = "#262626"
-# "pale_beaver" = "#B09D79"
-"pale_beaver" = "#9e7959"
-"blue_gray" = "#6897BB"
+signal_clay = "#7C4141"
+green = "#507C3B"
+dark_purple = "#454479"
+green_sage = "#AFBF7E"
+pearl_brown = "#69472C"
+marengo_blue = "#405469"
+orange_bronze = "#CC7832"
+green_crayola = "#6FAFBD"
+brilliant_crayola = "#9876AA"
+black = "#000000"
+# signal_black = "#262626"
+green_moss = "#38483d"
+# pale_beaver = "#B09D79"
+pale_beaver = "#9e7959"
+blue_gray = "#6897BB"
 # old values:
 # kaolin-dark palette
 bg0 = "#18181b" # black1
